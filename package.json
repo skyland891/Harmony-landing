@@ -1,0 +1,33 @@
+{
+  "name": "harmony-landing",
+  "version": "1.0.0",
+  "description": "Лендинг Harmony",
+  "main": "index.js",
+  "scripts": {
+    "start": "gulp",
+    "build": "gulp styles"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/skyland891/Harmony-landing.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/skyland891/Harmony-landing/issues"
+  },
+  "homepage": "https://github.com/skyland891/Harmony-landing#readme",
+  "dependencies": {
+    "browsersync": "0.0.1-security",
+    "gulp": "^4.0.2",
+    "gulp-less": "^4.0.1"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.2.4",
+    "browser-sync": "^2.26.14",
+    "gulp-plumber": "^1.2.1",
+    "gulp-postcss": "^9.0.0",
+    "gulp-sourcemaps": "^3.0.0",
+    "postcss": "^8.2.4"
+  }
+}
