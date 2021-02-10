@@ -38,7 +38,7 @@
         <section class="intro">
             <div class="intro__wrapper">
                 <div class="preview">
-                    <small class="preview__collaboration">ПРИ СОТРУДНИЧЕСТВЕ СО SPOTIFY</small>
+                    <span class="preview__collaboration">ПРИ СОТРУДНИЧЕСТВЕ СО SPOTIFY</span>
                     <h1 class="preview__title">Harmony — cервис по объединению музыкальных предпочтений</h1>
                     <img class="preview__img" src="" alt="">
                     <a class="button preview__download" href="#">Попробуйте бесплатно</a>
@@ -58,7 +58,7 @@
     </div>
     <section class="service">
         <div class="service__wrapper">
-            <small class="service__about">О СЕРВИСЕ</small>
+            <span class="service__about">О СЕРВИСЕ</span>
             <h1 class="service__title">Создавайте гармонию</h1>
             <p class="service__description">Harmony позволяет объединить 
                 музыкальные предпочтения каждого</p>
@@ -70,29 +70,29 @@
             <h1 class="features__title">Функционал приложения</h1>
             <p class="features__description">Lorem ipsum dolor sit amen conseteur</p>
             <ul class="features__list">
-                <li class="features__item features-item">
-                    <small class="features-item__caption">ДИЗАЙН</small>
+                <li class="features-item features-item--design">
+                    <span class="features-item__caption">ДИЗАЙН</span>
                     <p class="features-item__title">Красивый интерфейс</p>
                     <span class="features-item__description">Lorem ipsum dolor sit amet, 
                         consetetur sadipscing elitr, sed diam 
                         nonumy eirmod tempor invidunt ut</span>
-                    <a href="" class="features-item__more">УЗНАТЬ БОЛЬШЕ</a>
+                        <a href="" class="features-item__more-link"><p class = "features-item__more-text">УЗНАТЬ БОЛЬШЕ</p></a>
                 </li>
-                <li class="features__item features-item">
+                <li class="features-item features-item--speed">
                     <small class="features-item__caption">СКОРОСТЬ</small>
                     <p class="features-item__title">Высокая скорость работы</p>
                     <span class="features-item__description">Lorem ipsum dolor sit amet, 
                         consetetur sadipscing elitr, sed diam 
                         nonumy eirmod tempor invidunt ut</span>
-                    <a href="" class="features-item__more">УЗНАТЬ БОЛЬШЕ</a>
+                    <a href="" class="features-item__more-link"><p class = "features-item__more-text">УЗНАТЬ БОЛЬШЕ</p></a>
                 </li>
-                <li class="features__item features-item">
+                <li class="features-item features-item--support">
                     <small class="features-item__caption">ПОДДЕРЖКА</small>
                     <p class="features-item__title">Оперативная работа</p>
                     <span class="features-item__description">Lorem ipsum dolor sit amet, 
                         consetetur sadipscing elitr, sed diam 
                         nonumy eirmod tempor invidunt ut</span>
-                    <a href="" class="features-item__more">УЗНАТЬ БОЛЬШЕ</a>
+                        <a href="" class="features-item__more-link"><p class = "features-item__more-text">УЗНАТЬ БОЛЬШЕ</p></a>
                 </li>
             </ul>
         </div>
@@ -100,16 +100,32 @@
     <div class="page-inner__wrapper-bottom">
         <section class="reviews">
             <ul class="reviews__avatar-list">
-                <li class="reviews__avatar"></li>
-                <li class="reviews__avatar"></li>
-                <li class="reviews__avatar reviews__avatar--current"></li>
-                <li class="reviews__avatar"></li>
-                <li class="reviews__avatar"></li>
+                <li class="reviews__avatar">
+                    <img src="./img/reviews/avatar__1.png" alt="Person 1">
+                </li>
+                <li class="reviews__avatar">
+                    <img src="./img/reviews/avatar__2.png" alt="Person 2">
+                </li>
+                <li class="reviews__avatar reviews__avatar--current">
+                    <img src="./img/reviews/avatar__current.png" alt="Person 3">
+                </li>
+                <li class="reviews__avatar">
+                    <img src="./img/reviews/avatar__3.png" alt="Person 4">
+                </li>
+                <li class="reviews__avatar">
+                    <img src="./img/reviews/avatar__4.png" alt="Person 5">
+                </li>
             </ul>
-            <div class="reviews__rating"></div>
-            <span class="review__comment">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore 
+            <div class="reviews__rating">
+                <img class = "reviews__rating-stars" src="./img/reviews/reviews__rating-star.svg" alt="">
+                <img class = "reviews__rating-stars" src="./img/reviews/reviews__rating-star.svg" alt="">
+                <img class = "reviews__rating-stars" src="./img/reviews/reviews__rating-star.svg" alt="">
+                <img class = "reviews__rating-stars" src="./img/reviews/reviews__rating-star.svg" alt="">
+                <img class = "reviews__rating-stars" src="./img/reviews/reviews__rating-star.svg" alt="">
+            </div>
+            <span class="reviews__comment">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore 
                 et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.</span>
-            <p class="reviews__author"></p>
+            <p class="reviews__author">Ольга Бузова</p>
         </section>
         <section class="screenshots">
             <img class="screenshots__img" src="" alt="">
