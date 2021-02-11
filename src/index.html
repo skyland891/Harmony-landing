@@ -128,50 +128,60 @@
             <p class="reviews__author">Ольга Бузова</p>
         </section>
         <section class="screenshots">
-            <img class="screenshots__img" src="" alt="">
-            <ul class="screenshots__slide">
-                <li class="screenshots__name screenshots__name--current">СКРИНШОТ 1</li>
-                <li class="screenshots__name">СКРИНШОТ 2</li>
-                <li class="screenshots__name">СКРИНШОТ 3</li>
-            </ul>
-            <ul class="screenshots__function function-list">
-                <li class="function-list__item function-list__item--synchronization">
-                    <h2 class="function-list__item-title">Синхронизация со всеми устройствами</h2>
-                    <span class="function-list__item-description">Sed diam nonumy eirmod tempor invidunt ut labore et
-                        dolore magna aliquyam erat, sed diam voluptua. At vero eos
-                        et accusam et justo duo dolores et ea rebum. </span>
-                </li>
-                <li class="function-list__item function-list__item--safe">
-                    <h2 class="function-list__item-title">Lorem Ipsum</h2>
-                    <span class="function-list__item-description">Consetetur sadipscing elitr, sed diam nonumy eirmod
-                        tempor invidunt ut labore et dolore magna aliquyam erat,
-                        sed diam voluptua. At vero eos et accusam et justo.</span>
-                </li>
-                <li class="function-list__item function-list__item--notification">
-                    <h2 class="function-list__item-title">Уведомления</h2>
-                    <span class="function-list__item-description">At vero eos et accusam et justo duo dolores et ea rebum.
-                        Stet clita kasd gubergren, no sea takimata sanctus est
-                        Lorem ipsum dolor sit amet.</span>
-                </li>
-            </ul>
+            <div class="screenshots__slider-container">
+                <div class="screenshots__slider-track">
+                    <div class="screenshots__slider-item"></div>
+                    <div class="screenshots__slider-item"></div>
+                    <div class="screenshots__slider-item"></div>
+                </div>
+            </div>
+            <div class="screenshots__description">
+                <ul class="screenshots__slide">
+                    <li class="screenshots__name screenshots__name--current">СКРИНШОТ 1</li>
+                    <li class="screenshots__name">СКРИНШОТ 2</li>
+                    <li class="screenshots__name">СКРИНШОТ 3</li>
+                </ul>
+                <ul class="screenshots__function function-list">
+                    <li class="function-list__item function-list__item--synchronization">
+                        <h2 class="function-list__item-title">Синхронизация со всеми устройствами</h2>
+                        <span class="function-list__item-description">Sed diam nonumy eirmod tempor invidunt ut labore et
+                            dolore magna aliquyam erat, sed diam voluptua. At vero eos
+                            et accusam et justo duo dolores et ea rebum. </span>
+                    </li>
+                    <li class="function-list__item function-list__item--safe">
+                        <h2 class="function-list__item-title">Lorem Ipsum</h2>
+                        <span class="function-list__item-description">Consetetur sadipscing elitr, sed diam nonumy eirmod
+                            tempor invidunt ut labore et dolore magna aliquyam erat,
+                            sed diam voluptua. At vero eos et accusam et justo.</span>
+                    </li>
+                    <li class="function-list__item function-list__item--notification">
+                        <h2 class="function-list__item-title">Уведомления</h2>
+                        <span class="function-list__item-description">At vero eos et accusam et justo duo dolores et ea rebum.
+                            Stet clita kasd gubergren, no sea takimata sanctus est
+                            Lorem ipsum dolor sit amet.</span>
+                    </li>
+                </ul>
+            </div>
         </section>
         <aside class="download">
             <h1 class="download__title">Скачать приложение</h1>
             <p class="download__description">Доступно для iPhone, iPad, Android, OS X</p>
-            <a class="download__link download__link--google-play" href=""></a>
-            <a class="download__link download__link--app-store" href=""></a>
+            <a class="download__link download__link--google-play" href=""><img src="./img/download/google-play.svg" alt="Скачать в Google Play"></a>
+            <a class="download__link download__link--app-store" href=""><img src="./img/download/app-store.svg" alt="Скачать в App Store"></a>
         </aside>
     </div>
     <footer class="footer">
         <div class="footer__wrapper">
             <section class="contacts">
                 <h1 class="contacts__title">Наши контакты</h1>
-                <a href="#" class="contacts__adress">ул. Политехническая, д. 29, Санкт-Петербург</a>
-                <a href="#" class="contacts__tel">+7(977)676-70-40</a>
-                <a href="#" class="contacts__mail">0090017@gmail.com</a>
+                <div class="contacts__data">
+                    <a href="#" class="contacts__adress"><img class="contacts__adress-icon" src="./img/footer/pin.svg" alt=""> ул. Политехническая, д. 29, Санкт-Петербург</a>
+                    <a href="#" class="contacts__tel"><img class="contacts__tel-icon" src="./img/footer/phone.svg" alt=""> +7(977)676-70-40</a>
+                    <a href="#" class="contacts__mail"><img class="contacts__mail-icon" src="./img/footer/email.svg" alt=""> 0090017@gmail.com</a>
+                </div>
             </section>
             <section class="copyright">
-                <img src="" alt="" class="copyright__logo">
+                <img src="./img/footer/footer__logo.svg" alt="" class="copyright__logo">
                 <small class="copyright__text">Copyright  © 2021 Harmony. All rights reserved.</small>
                 <ul class="copyright__icon-list">
                     <li class="copyright__icon-item copyright__icon-item--facebook"></li>
