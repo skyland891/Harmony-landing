@@ -40,7 +40,7 @@ exports.server = server;
 
 // watcher
 const watcher = () => {
-    gulp.watch("src/less/**/.less", gulp.series("styles"));
+    gulp.watch("src/less/**/*.less", gulp.series("styles"));
     gulp.watch("src/*.html").on("change", browsersync.reload);
   }
   
