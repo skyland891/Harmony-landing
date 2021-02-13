@@ -12,6 +12,31 @@
     background-repeat: no-repeat;
     top: 50px;
     left: 222px;
+    overflow: hidden;
+}
+
+.screenshots__slider-track {
+    display: flex; 
+    background-color: yellow;
+    transition: .2s;
+    height: 100%;
+}
+
+.screenshots__slider-item {
+    height: 100%;
+    width: 110px;
+
+    &:nth-child(3n + 1) {
+        background-color: red;
+    }
+
+    &:nth-child(3n + 2) {
+        background-color: green;
+    }
+
+    &:nth-child(3n + 3) {
+        background-color: blue;
+    }
 }
 
 .screenshots__slide {
